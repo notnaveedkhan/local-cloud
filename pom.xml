@@ -54,7 +54,7 @@
                 <configuration>
                     <mainClass>com.localcloud.Application</mainClass>
                     <layout>ZIP</layout>
-                    <finalName>local-drive</finalName>
+                    <finalName>local-cloud</finalName>
                     <excludes>
                         <exclude>
                             <groupId>org.projectlombok</groupId>
@@ -64,7 +64,7 @@
                 </configuration>
             </plugin>
         </plugins>
-        <finalName>local-drive</finalName>
+        <finalName>local-cloud</finalName>
     </build>
 
 </project>
