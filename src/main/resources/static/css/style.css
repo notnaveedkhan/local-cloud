@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Poppins:ital,wght@1,300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background-color: rgb(83, 83, 255);
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 80vh;
+
+}
+
+.wrapper {
+    width: 430px;
+    padding: 30px;
+    background: white;
+    border-radius: 5px;
+}
+
+.wrapper header {
+    text-align: center;
+    font-size: 27px;
+    font-weight: 600;
+    color: rgb(83, 83, 255);
+}
+
+.wrapper form {
+    border: 2px dashed rgb(83, 83, 255);
+    height: 167px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 0;
+}
+
+form :where(i,p) {
+    color: rgb(83, 83, 255);
+}
+
+form i {
+    font-size: 50px;
+}
+
+form p {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+section .row {
+    background: #e9f0ff;
+    margin-bottom: 10px;
+    list-style: none;
+    padding: 15px 20px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+section .row i {
+    font-size: 30px;
+    color: rgb(83, 83, 255);
+}
+
+section .detail span {
+    font-size: 14px;
+}
+
+.uploaded-area .row .content {
+    display: flex;
+    align-items: center;
+}
+
+.uploaded-area .name {
+    margin-left: 15px;
+}
+
+.uploaded-area .row .detail {
+    display: flex;
+    margin-left: 15px;
+    flex-direction: column;
+}
+
+.uploaded-area {
+    max-height: 150px;
+    overflow: scroll;
+}
+
+.uploaded-area::-webkit-scrollbar {
+    width: 0;
+}
+
+.btn {
+    text-align: center;
+}
+
+.btn button {
+    padding: 10px 30px;
+    border: 0;
+    border-radius: 5px;
+    background-color: rgb(83, 83, 255);
+    color: white;
+    cursor: pointer;
+}
+
+table {
+    width: 100%;
+    text-align: center;
+}
+
+tr {
+    background-color: white;
+}
+
+tr:hover {
+    cursor: pointer;
+}
+
+td {
+    border-right: 1px solid black;
+}
+
+tr button {
+    margin: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    font-size: 15px;
+    color: rgb(83, 83, 255);
+}
+
+tr button:hover {
+    background-color: rgb(83, 83, 255);
+    color: white;
+}
